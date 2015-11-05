@@ -1,8 +1,10 @@
-# HTML5 Video Embed Code-Along
+Exceptional Realty Group Website
+---
 
+# Description
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/ymUxDt_mOxU?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+This is an example site for the Intro to Front-end Web Development Course at The Flatiron School. 
 
-<p><a href="https://www.youtube.com/watch?v=ymUxDt_mOxU">HTML5 Video Embed Code-Along</a></p>.
+# Contact
 
-After you fork and clone, copy your code from the previous codealong into this repo.
+email: shana.lavina.moore@gmail.com

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exceptional Realty Group - Luxury Homes - Contact</title>
+</head>
+<body>
+
+  <h1>Exceptional</h1>
+  <h2>Realty Group</h2>
+
+  <!-- links -->
+  <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+
+  <h3>Contact</h3>
+
+  <!-- Map -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12099.944357336131!2d-73.9989066169425!3d40.69630401169307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a47df06b185%3A0xc889234bc07c42ee!2sBrooklyn+Heights%2C+Brooklyn%2C+NY+11201!5e0!3m2!1sen!2sus!4v1447246194815" width="425" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <!-- Contact form -->
+  <!-- The "post" keyword will prevent user data from being treated as a string query (for that, you should use get)-->
+  <form action="#" method = "post">
+    <!-- the "for" keyword in label will move the cursor to the label's associated input upon click. -->
+    <label for ="fullname">Name</label>
+
+    <!-- The "id" keyword is used in this example to tie a label to a specific input form
+
+    The "required" keyword makes the input field a form that must be filled 
+    
+    "name" is an important attribute, it creates a variable for the input to be stored on the server
+    -->
+
+    <input type="text" id = "fullname" name = "fullname" placeholder = "Your name" required>
+    <label for ="email">E-mail</label>
+    <input type = "email" id ="email" name="email" placeholder="Your email" required>
+    <label for ="phone">Phone</label>
+    <!-- the "tel" keyword will bring up a numeric keyboard for mobile devices-->
+    <input type = "tel" id="phone" name = "phone" placeholder = "Your Phone (optional)">
+    <label for = "message">Message</label>
+    <!-- a "textarea" block will give you multiple blocks for which you can type into -->
+    <textarea id = "message" name = "message" rows = "10"></textarea>
+    <input type = "submit" value = "Send">
+  </form>
+  
+</body>
+</html>

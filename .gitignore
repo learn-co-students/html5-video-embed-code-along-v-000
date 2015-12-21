@@ -20,6 +20,11 @@
 *.tar
 *.zip
 
+# Video Content #
+######################
+*.mp4
+*.ogv
+
 # Logs and databases #
 ######################
 *.log

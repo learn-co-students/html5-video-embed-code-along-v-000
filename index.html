@@ -1,35 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- This is a comment. I can see it in the code, but it will not appear in the browser. -->
+<head>
+<!--This is a comment -->
+<!-- Head section contains info for search engines and browser and is not seen by site visitors.  -->
+  <meta charset="UTF-8">
+  <title>Exceptional Realty Group - Luxury Homes - About</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
 
-    <!-- 
-    The head section contains info for search engines and the browser and is not seen by site visitors.
-    -->
+<body>
+  <header>
+    <!-- logo -->
+    <div id="logo">
+      <h1>Exceptional</h1>
+      <h2>Realty</h2>
+    </div>
 
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-  </head>
-  <body>
-    <!-- The body is the entire viewable area of the web page. For example we can see text, links, images, and media. -->
+    <nav>
+      <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listing</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+    </nav>
+  </header>
 
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
-
-    <!-- links -->
-    <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
-
-    <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-
+  <section id="featured-property">
+    <figure>
+      <img src="images/intro-pic.jpg" alt="A beautiful living room" title="Welcome to Exception Realty Group">
+      <figcaption>345 Carl Street, Apt 12, Carrol Rd. Brooklym. Photo by Richards </figcaption>
+    </figure>
     <!--
-    foldername/ = go inside the folder.
-    filename = use a file in the current folder.
-    ../ = leavethe current folder and go up to parent folder.
-    -->
+    foldername/=go inside 
+    filename = use a current folder in the directory
+    ../ leave the current folder
+     -->
+    <p> Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+  <section id="promotional">
+    <figure>
+  <!-- Promo Video -->
+      <video controls>
+        <source src="video/00244=32592=22973=22551_512kb" type="video/mp4">
+        <source src="real-estate.ogv" type="video/ogg">
+        Your browser does not support HTML5 video. <a href="http://browsehappy.com" target="blank">Please upgrade your browser.</a>
+      </video>
+      <figcaption>Exceptional Realty Group Promotional video. Source: archive.org </figcaption>
+    </figure>
+  </section>
 
-  </body>
+  <section id="details">
+    <div>
+      <h3>Contact</h3>
+      <p>
+        email: <a href="mailto:abc@gmail.com">abc@gmail.com</a> <br>
+        phone: +1 334 456 542
+      </p> 
+      <h3>Correspondence</h3>
+      <address>
+        Exceptional Realty <br>
+        P.O.Box 5555<br>
+        Brooklyn 11216
+      </address>
+    </div>
+
+    <div>
+      <h3>Links</h3>
+      <p>
+        <a href="#" target="blank">Home Restoration</a>
+        <a href="#" target="blank">Affordable Mortgage</a>
+        <a href="#" target="blank">Professional Moving</a>
+      </p>
+    </div>
+
+    <div>
+      <h3>Follow</h3>
+      <p>
+        <a href="#" target="blank">Youtube</a>
+        <a href="#" target="blank">Facebook</a>
+        <a href="#" target="blank">Twitter</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2015 Exceptional Realty. All rights reserved.
+  </footer>
+</body>
 </html>

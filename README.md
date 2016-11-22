@@ -11,3 +11,4 @@ Fork and clone this repo to download all of the starter code for the code along.
 [Click here to get the OGV video linked to in the exercise](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.ogv)
 
 <a href='https://learn.co/lessons/html5-video-embed-code-along' data-visibility='hidden'>View this lesson on Learn.co</a>
+  

@@ -11,3 +11,11 @@ Fork and clone this repo (or use 'learn open') to download all of the starter co
 [Click here to get the OGV video linked to in the exercise](http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.ogv)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/html5-video-embed-code-along' title='HTML5 Video Embed Code-Along'>HTML5 Video Embed Code-Along</a> on Learn.co and start learning to code for free.</p>
+
+
+```git
+git status
+git add .
+git commit -m "<insert commit message>"
+git push origin <branch-name>
+```

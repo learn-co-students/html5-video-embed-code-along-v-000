@@ -16,6 +16,6 @@ Fork and clone this repo (or use 'learn open') to download all of the starter co
 ```git
 git status
 git add .
-
-
+git commit -m "<insert commit message>"
+git push origin <branch-name>
 ```

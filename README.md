@@ -1,8 +1,8 @@
 # HTML5 Video Embed Code-Along
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/ymUxDt_mOxU?rel=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+Please fork and clone the starter code from this repository for the codealong. Then code laong with the video below.
 
-<p><a href="https://www.youtube.com/watch?v=ymUxDt_mOxU">HTML5 Video Embed Code-Along</a></p>
+<iframe width="640" height="480" src="//www.youtube.com/embed/ymUxDt_mOxU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 Fork and clone this repo (or use 'learn open') to download all of the starter code for the code along.
 

@@ -23,7 +23,7 @@ type `git checkout -b embed-video` to start up a new branch for this lesson.
 ### Embedding Videos
 
 Starting from inside your project folder (wherever your HTML files are stored),
-let's create a new folder for videos by typing `mkdir videos` in our terminal.
+let's create a new folder for videos by entering `mkdir videos` in our terminal.
 This folder will appear beside your `images` folder. We'll use two videos
 during this lesson, and we need to get them into our project before we can
 incorporate them into the HTML. With the in-browser IDE, we'll need to use our

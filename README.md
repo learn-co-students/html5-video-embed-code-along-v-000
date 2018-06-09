@@ -10,7 +10,7 @@ off by running the following in your terminal:
 
 ```
 git clone https://github.com/<your_username_here>/exceptional-realty
-cd exceptional-realty
+cd exceptional-realty 
 ```
 
 Following good git practices, since we're going to be adding some new content,

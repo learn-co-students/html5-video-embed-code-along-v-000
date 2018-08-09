@@ -6,7 +6,7 @@
 
 All the files needed to follow along are available in this lab. Just click 'Open IDE' in Learn. However, if you were following along using a personal `exceptional-realty`
 repository in the previous HTML lessons, you can continue from where we left
-off by running the following in your terminal:
+off by running the following in your terminal:   
 
 ```
 git clone https://github.com/<your_username_here>/exceptional-realty

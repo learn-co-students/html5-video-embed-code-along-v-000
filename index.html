@@ -1,35 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- This is a comment. I can see it in the code, but it will not appear in the browser. -->
+	<head>
+	<!-- This is a comment. I can see it in the code, but it will not appear in the browser. The head is for the page info, but not for the user content.
+	The head section contains info for search engines, and the browser, and is not seen by site visitors.
+	-->
 
-    <!-- 
-    The head section contains info for search engines and the browser and is not seen by site visitors.
-    -->
+		<meta charset="UTF-8"> <!--best practices for html content - see link in lesson -->
+		<title> Exceptional Realty Group - Luxury Homes - About
+		</title>
+	</head>
+	<body>
+	<!-- This is where the actual page content goes. The body is the entire viewable area of the webpage. For example, we can see text, links, images, and media. -->
+	<h1> Exceptional </h1>
+	<h3> Realty Group </h3>
 
-    <meta charset="UTF-8">
-    <title>Exceptional Realty Group - Luxury Homes - About</title>
-  </head>
-  <body>
-    <!-- The body is the entire viewable area of the web page. For example we can see text, links, images, and media. -->
+	<a href="index.html">About</a>
+	<a href="new-properties.html">New Properties</a>
+	<a href="real-estate-listing.html">Real Estate Listings</a>
+	<a href="market-report.html">Market Report</a>
+	<a href="contact.html">Contact</a>
 
-    <h1>Exceptional</h1>
-    <h2>Realty Group</h2>
+	<a href="http://hud.gov" target="_blank">H.U.D.</a>
 
-    <!-- links -->
-    <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+	<img src="images/intro-pic.jpeg" alt="a beautiful natural place" title="Welcome to exceptional realty">
 
-    <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
+	<!-- foldername/ = go inside folder
+	filename = use a file in the current directory
+	../ = leave the current folder and go up to parent folder (directory) i.e. ../images/intro-pic.jpeg would leave exceptional-realty folder and go up to find that image
+	be careful about case sensitivities, and whether it's jpg or jpeg
+	src stands for "source" and points to the image, and alt is for alternative, for ppl who are visually impaired, and using screen readers. also important for search engines, who are looking for alt text
+	a stands for anchor link , also think of a for action, which links to other html page
+	index.html always needs to be there, and will be first
+	target="_blank" makes that link open up to new page
 
-    <!--
-    foldername/ = go inside the folder.
-    filename = use a file in the current folder.
-    ../ = leavethe current folder and go up to parent folder.
-    -->
+	Validating My HTML Code:
+	if i have a malformed p tag, it's okay, i can always check my code to check it. cmd+C
+	-->
 
-    <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+	<p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Dolore ratione deleniti impedit, qui esse aliquid nemo nisi voluptatem iusto quaerat voluptate pariatur quibusdam consectetur, commodi nesciunt nulla sapiente mollitia asperiores.</p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet iusto error vel quidem aliquid. Tempora quod animi, quae dolorem incidunt minus deserunt praesentium non laborum. Consequuntur dignissimos amet repellat, voluptatem.</p>
 
-  </body>
-</html>
+
+	<p>Hello Moon!</p>
+
+	<video src="" controls="">
+		<source src="video/real-estate.mp4" type="video/mp4">
+		<source src="video/real-estate.ogv" type="video/ogg">
+		Your browser does not support HTML5 video. <a href="#">Please upgrade your browser.</a>
+
+	</video>
+	</body>
+</html> 
